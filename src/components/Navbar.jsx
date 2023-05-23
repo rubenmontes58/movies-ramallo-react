@@ -56,6 +56,16 @@ function NavBar() {
      <Button color="warning" auto>
      
          <Link href="/about">
+      Mis Favoritas
+     </Link>
+     </Button>
+      
+     </Grid>
+       <Grid>
+     
+     <Button color="warning" auto>
+     
+         <Link href="/about">
       About
      </Link>
      </Button>

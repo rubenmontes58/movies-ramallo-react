@@ -1,9 +1,5 @@
 import { NextUIProvider } from '@nextui-org/react';
 
-import Carrusel from './components/carrusel';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-
 
 
 
@@ -17,19 +13,23 @@ function App() {
 
     
             <NextUIProvider > 
-            
-                      <NavBar/>
-                      <Carrusel/>
 
-                    <Footer />  
-                
+           
+
+
+             
+            
+                   
+
+                  
           
        
 
   </NextUIProvider>
 
 
-   
+  
+                
 
   )
 }

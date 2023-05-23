@@ -1,7 +1,15 @@
 
 import { Container, Grid,  Text } from "@nextui-org/react";
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import Carrusel from '../components/carrusel';
 function About() {
   return (
+    <>
+
+    
+    <NavBar/>
+    <Carrusel/>
    
       
 
@@ -65,6 +73,8 @@ En resumen, nuestra misión es simple pero significativa: proveer a nuestra audi
         }
       `}</style>
     </Container>
+    <Footer/>
+    </>
   );
 }
 

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { Popover, useModal, Button, Text } from "@nextui-org/react";
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import Carrusel from '../components/carrusel';
 
 function series() {
   const [tvShows, setTvShows] = useState([]);
@@ -28,7 +31,13 @@ function series() {
   }, []);
 
   return (
-    <div className='container-full'>
+
+    <>
+        <NavBar/>
+    <Carrusel/>
+
+
+     <div className='container-full'>
        
 
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -75,6 +84,11 @@ function series() {
     ))}
   </div>
   </div>
+
+  <Footer/>
+
+    </>
+   
     
 
   );

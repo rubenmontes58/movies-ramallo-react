@@ -1,5 +1,8 @@
 import { Container, Grid,Text,Input,Button } from "@nextui-org/react";
 import { useState } from 'react';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import Carrusel from '../components/carrusel';
 
 function Contact() {
   const [name, setName] = useState('');
@@ -15,7 +18,12 @@ function Contact() {
   };
 
   return (
-    <Container
+
+    <div>
+          <NavBar/>
+    <Carrusel/>
+    
+     <Container
       color="#000"
       background="#fff"
       as="section"
@@ -89,7 +97,12 @@ function Contact() {
         }
       `}</style>
     </Container>
+
+    <Footer/>
+    </div>
   );
+    
+   
 }
 
 export default Contact;
