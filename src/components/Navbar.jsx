@@ -7,63 +7,78 @@ function NavBar() {
   return (
 
 
-<>
 
- 
-
+<div>
     <Grid.Container gap={2} >
       <Grid>
+      <Button bordered color="warning" auto>
      
       
           <Link href="/">
        Home
       </Link >
+      </Button>
        
       </Grid>
      
       <Grid>
+      <Button bordered color="warning" auto>
      
     
          <Link href="/series">
       Series
      </Link>
-      
+     </Button>
+    
      </Grid>
      <Grid>
+
+     <Button bordered color="warning" auto>
      
      
          <Link href="/masvistas">
       Las más Vistas
      </Link>
+     </Button>
      
      </Grid>
      <Grid>
-     
+     <Button bordered color="warning" auto>
      
          <Link href="/novedades">
       Novedades
      </Link>
+     </Button>
      
      </Grid>
      <Grid>
      
+     <Button bordered color="warning" auto>
      
          <Link href="/about">
       About
      </Link>
+     </Button>
       
      </Grid>
      <Grid>
      
-    
+     <Button bordered color="warning" auto>
          <Link href="/contact">
+         
+                
       Contacto
      </Link>
-      
+       </Button>
      </Grid>
     </Grid.Container>
+</div>
 
-    </>
+ 
+
+
+
+ 
     
   )
 }
