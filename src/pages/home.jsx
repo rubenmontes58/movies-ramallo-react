@@ -1,12 +1,15 @@
 
-import Fetch from "../components/Fetch"
 
 
 function Home() {
   return (
     <>
+    <h1>
+
+      casfs
+    </h1>
    
-    <Fetch/>
+    
 
         
       

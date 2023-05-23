@@ -11,7 +11,7 @@ function NavBar() {
 <div>
     <Grid.Container gap={2} >
       <Grid>
-      <Button bordered color="warning" auto>
+      <Button color="warning" auto>
      
       
           <Link href="/">
@@ -22,7 +22,7 @@ function NavBar() {
       </Grid>
      
       <Grid>
-      <Button bordered color="warning" auto>
+      <Button color="warning" auto>
      
     
          <Link href="/series">
@@ -33,7 +33,7 @@ function NavBar() {
      </Grid>
      <Grid>
 
-     <Button bordered color="warning" auto>
+     <Button color="warning" auto>
      
      
          <Link href="/masvistas">
@@ -43,7 +43,7 @@ function NavBar() {
      
      </Grid>
      <Grid>
-     <Button bordered color="warning" auto>
+     <Button color="warning" auto>
      
          <Link href="/novedades">
       Novedades
@@ -53,7 +53,7 @@ function NavBar() {
      </Grid>
      <Grid>
      
-     <Button bordered color="warning" auto>
+     <Button color="warning" auto>
      
          <Link href="/about">
       About
@@ -63,7 +63,7 @@ function NavBar() {
      </Grid>
      <Grid>
      
-     <Button bordered color="warning" auto>
+     <Button color="warning" auto>
          <Link href="/contact">
          
                 
